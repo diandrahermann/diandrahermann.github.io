@@ -1,0 +1,82 @@
+#profilbild {
+  text-align: center;
+  background-color: #dec9be;
+}
+.imground {
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #36402c;
+}
+
+.nav__links a,
+.button {
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a:hover {
+  color: #7c8c5a;
+}
+
+.button {
+  padding: 9px 25px;
+  background-color: rgba(124, 140, 90, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+  background-color: rgba(124, 140, 90, 0.8);
+}
+
+body {
+  background-color: #dec9be;
+}
+
+#aboutme {
+  text-align: center;
+}
+#About {
+  background-color: #36402c;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  width: 1000px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 15%;
+  column-count: 2;
+  border-radius: 15px;
+}
+#Bilder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
