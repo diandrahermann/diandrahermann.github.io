@@ -1,0 +1,58 @@
+#defaultCanvas0 {
+  /* padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  margin: 0 auto; */
+  left: 21.5%;
+}
+h1 {
+  text-align: center;
+  color: #ededed;
+  letter-spacing: 2px;
+  font-family: Arial, serif;
+}
+nav {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Arial, serif;
+}
+a:link {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+a:visited {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+a:hover {
+  text-decoration: none;
+  background-color: #ff3030;
+}
+a:active {
+  text-decoration: none;
+  background-color: #ff3030;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.woodtable {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.p5Canvas {
+  position: absolute;
+  left: 30px;
+  width: 100%;
+}
+.background {
+  background-image: url("woodtable.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  z-index: -1;
+}
