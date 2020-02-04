@@ -673,7 +673,6 @@ function chuggame() {
     chugcup();
     liquid();
     chugtext = true;
-    sound_ball.play();
   }
   if (chugminigame === false) {
     if (cupsleft[9].filled === false || cupsright[9].filled === false) {
