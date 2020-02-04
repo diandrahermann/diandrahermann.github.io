@@ -108,7 +108,7 @@ function preload() {
   sound_ball = loadSound("Ball.mp3");
   // sound_chug = loadSound("Cup.mp3");
   // sound_end = loadSound("End.mp3");
-  sound_ball.soundMode("restart");
+  // sound_ball.soundMode("restart");
 }
 
 // function setup() {
@@ -575,7 +575,6 @@ function puck() {
     ball.speed += 0.5;
     ball.speed += 0.5;
     sound_ball.play();
-    // sound_cup.play();
     // ball.velocityX = -ball.velocityX;
   }
   //Ball fliegt hinter rechten Cup
@@ -606,7 +605,6 @@ function puck() {
     ball.speed += 0.5;
     ball.speed += 0.5;
     sound_ball.play();
-    // sound_cup.play();
   } else if (ball.x <= 20) {
     scoreleft = scoreleft + 1;
     cupsleft[scoreleft - 1].filled = false;
