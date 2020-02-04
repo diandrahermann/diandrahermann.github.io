@@ -97,7 +97,7 @@ let img4;
 let sound_cup; //Quelle
 let sound_ball; //Quelle https://freesound.org/people/14FPanskaBubik_Lukas/sounds/418556/
 // let sound_chug; //Quelle: selbst aufgenommen
-let sound_end; //Quelle https://freesound.org/people/beskhu/sounds/149729/
+// let sound_end; //Quelle https://freesound.org/people/beskhu/sounds/149729/
 
 function preload() {
   img1 = loadImage("startscreen.png");
@@ -107,7 +107,7 @@ function preload() {
   sound_cup = loadSound("Cup.mp3");
   sound_ball = loadSound("Ball.mp3");
   // sound_chug = loadSound("Cup.mp3");
-  sound_end = loadSound("End.mp3");
+  // sound_end = loadSound("End.mp3");
   sound_ball.soundMode("restart");
 }
 
