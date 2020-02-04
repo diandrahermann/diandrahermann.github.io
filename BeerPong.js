@@ -815,8 +815,8 @@ function computermovement() {
   comcup.Y += comcup.speed;
   comcup.speed = ball.y - (comcup.y + comcup.height / 2);
   //max speed
-  if (comcup.speed >= 1) {
-    comcup.speed = 1;
+  if (comcup.speed >= 4) {
+    comcup.speed = 4;
   }
 }
 function restartbutton() {
